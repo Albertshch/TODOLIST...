@@ -1,0 +1,54 @@
+body {
+    background: #fff;
+    color: #333;
+    font-family: Lato, sans-serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+h1 {    
+	margin: 150px 105px 0;
+	font-style: oblique;
+	font-weight: 100;
+	color: #333;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 1px solid #333;
+    padding: 30px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+}
+label {
+	font-weight: 100;
+	font-style: oblique;		
+	}
+
+ul li input[type=text] {
+    display:none;
+}
+
+ul li.editMode input[type=text] {
+    display:block;
+}
+input, button {
+    outline: none;
+}
+button {
+    background: none;
+    border: 0px;
+    color: #888;
+    font-size: 15px;
+    margin: 10px 0 0;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+}
+li {
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+
+}
+li > .delete:hover {
+    color: #CF2323;
+}
